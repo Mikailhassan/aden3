@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Product Management</title>
+    <link rel="stylesheet" href="addproduct.css">
+</head>
+<body>
+    <h1>Product Management</h1>
+    <div class="container">
+        <h2>Create New Product</h2>
+        <form id="create-product-form">
+            <input type="text" id="new-name" placeholder="Product Name" required>
+            <input type="text" id="new-description" placeholder="Product Description" required>
+            <input type="number" id="new-price" placeholder="Product Price" required>
+            <input type="text" id="new-image" placeholder="Product Image URL" required>
+            <input type="text" id="new-type" placeholder="Product Type" required>
+            <button type="submit">Create Product</button>
+        </form>
+    </div>
+    <div id="product-list" class="product-list"></div>
+    <script src="addproduct.js"></script>
+</body>
+</html>
+
+

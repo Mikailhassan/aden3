@@ -1,0 +1,37 @@
+<!-- login.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" id="login-container">
+        <div class="close-btn" id="close-login">X</div> <!-- Close button -->
+        <h2>Login</h2>
+        <form id="login-form">
+            <img src="img/download.png logo.png" alt="">
+            <h1> welcome to BUSHRA BEAUTIQUE. create your account/login</h1>
+            <div class="form-group">
+                <label for="email"><i class="fas fa-envelope"></i> Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password"><i class="fas fa-lock"></i> Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit"><i class="fas fa-sign-in-alt"></i> Login</button>
+        </form>
+        <div class="option">
+            <p>Don't have an account? <a href="signup.html" id="show-signup"><i class="fas fa-user-plus"></i> Sign up here</a></p>
+        </div>
+    </div>
+
+    <script src="login.js"></script>
+    <script src="script.js"></script> <!-- Add this line to include the common script file -->
+</body>
+</html>
